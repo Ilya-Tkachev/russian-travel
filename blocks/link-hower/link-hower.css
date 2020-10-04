@@ -1,0 +1,8 @@
+.link-hower {
+    opacity: 1;
+    transition: opacity .5s ease-out;
+ }
+
+ .link-hower:hover {
+    opacity: .5;
+}
