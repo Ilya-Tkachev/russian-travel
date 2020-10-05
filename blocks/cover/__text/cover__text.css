@@ -1,5 +1,6 @@
 .cover__text {
     grid-row: 1/1;
     grid-column: 1/1;
-    text-align: center;
+    display: grid;
+    justify-items: center;
 }
