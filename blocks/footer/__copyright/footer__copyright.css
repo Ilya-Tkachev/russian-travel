@@ -4,3 +4,10 @@
     line-height: 16px;
     padding-right: 48px;
 }
+
+@media (max-width: 1024px) {
+    .footer__copyright {
+        padding-left: 16px;
+        line-height: 14px;
+    }
+}
