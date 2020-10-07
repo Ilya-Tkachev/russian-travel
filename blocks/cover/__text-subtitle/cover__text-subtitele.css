@@ -1,4 +1,4 @@
-.cover__text_subtitele {
+.cover__text-subtitele {
     margin: 0;
     font-size: 18px;
     line-height: 22px;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 768px) {
-    .cover__text_subtitele {
+    .cover__text-subtitele {
         font-size: 14px;
         line-height: 16px;
     }
