@@ -1,0 +1,24 @@
+.footer__list-item {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    padding-right: 18px;
+}
+
+.footer__list-item:nth-child(5n) {
+    padding-right: 0px;
+}
+
+@media (max-width: 767px) {
+    .footer__list-item {
+        font-size: 24px;
+        line-height: 24px;
+        padding-right: 0;
+        padding-bottom: 32px;
+    }
+
+    .footer__list-item:nth-child(5n) {
+        padding-bottom: 0px;
+    }
+}

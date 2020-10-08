@@ -1,4 +1,7 @@
 .cover__text-title-link {
     text-decoration: none;
     color: white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }

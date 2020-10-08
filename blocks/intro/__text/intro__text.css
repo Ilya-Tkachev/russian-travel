@@ -4,10 +4,3 @@
     line-height: 163%;
     padding-bottom: 32px;
 }
-
-@media (max-width: 768px) {
-    .intro__text {
-        font-size: 16px;
-        line-height: 163%;
-    }
-}

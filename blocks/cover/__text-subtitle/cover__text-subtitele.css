@@ -8,9 +8,10 @@
     grid-column: 1/1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .cover__text-subtitele {
         font-size: 14px;
         line-height: 16px;
+        max-width: 288px;
     }
 }

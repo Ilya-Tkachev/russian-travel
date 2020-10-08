@@ -1,3 +1,23 @@
-.logo{
-    margin-left: 3.75%;
+.logo {
+    margin-top: 28px;
+}
+
+@media (max-width: 1279px) {
+    .logo {
+        /* ничего интерсного */
+    }
+}
+
+@media (max-width: 1023px) {
+    .logo {
+        
+    }
+}
+
+@media (max-width: 767px) {
+    .logo {
+        max-width: 142px;
+        max-height: 42px;
+        margin-top: 16px;
+    }
 }

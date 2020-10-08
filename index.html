@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru"></html>
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8" />
@@ -13,14 +13,14 @@
     <title>Путешествие по России</title>
 </head>
 
-<body>
+<body class="body">
     <div class="page">
 
         <header class="header">
             <img class="logo" src="./images/header-logo.svg" alt="Логотип России"/>
-            <div class="lang-links">
-                <a class="lang-link lang-link_decoration_undelined link-hower" href="#">Ru</a>
-                <a class="lang-link link-hower" href="#">En</a>
+            <div class="header__lang-links">
+                <a class="header__lang-link header__lang-link_decoration_undelined link-hower" href="#">Ru</a>
+                <a class="header__lang-link link-hower" href="#">En</a>
             </div>
         </header>
 
@@ -43,11 +43,11 @@
                     достойные вашего отпуска.
                 </p>
                 <ul class="intro__list">
-                    <li>Часовых поясов <span class="font-weight-normal">11</span></li>
-                    <li>Объектов природного наследия ЮНЕСКО <span class="font-weight-normal">12</span></li>
-                    <li>Объектов культурного наследия ЮНЕСКО <span class="font-weight-normal">16</span></li>
-                    <li>Природных заповедников <span class="font-weight-normal">105</span></li>
-                    <li>Аэропортов <span class="font-weight-normal">241</span></li>
+                    <li>Часовых поясов <span class="intro__list-number">11</span></li>
+                    <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-number">12</span></li>
+                    <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span></li>
+                    <li>Природных заповедников <span class="intro__list-number">105</span></li>
+                    <li>Аэропортов <span class="intro__list-number">241</span></li>
                 </ul>
             </section>
             <section class="photo-grid">
@@ -65,7 +65,7 @@
                 <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Фото горной вершины в тумане"/>
             </section>
             <section class="places">
-                <div class="place">
+                <article class="place">
                     <h3 class="place__title">Куршская коса</h3>
                     <div class="place__website">
                         <p class="place__website-url-heading">URL</p>
@@ -84,8 +84,8 @@
                             окуная в
                             спокойствие природы и запах стального, прохладного моря.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h3 class="place__title">Кольский</h3>
                     <div class="place__website">
                         <p class="place__website-url-heading">URL</p>
@@ -105,8 +105,8 @@
                             начинает сбываться с билетом
                             в Мурманск.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h3 class="place__title">Алтай</h3>
                     <div class="place__website">
                         <p class="place__website-url-heading">URL</p>
@@ -125,8 +125,8 @@
                             орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
                         </p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h3 class="place__title">Зимний Байкал</h3>
                     <div class="place__website">
                         <p class="place__website-url-heading">URL</p>
@@ -145,8 +145,8 @@
                             года на
                             фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>
-                </div>
-                <div class="place">
+                </article>
+                <article class="place">
                     <h3 class="place__title">Карелия</h3>
                     <div class="place__website">
                         <p class="place__website-url-heading">URL</p>
@@ -164,30 +164,35 @@
                             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
                             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                     </div>
-                </div>
+                </article>
             </section>
             <section class="cover">
-                <img class="cover__background" src="./images/cover-trains.jpg" alt="Фото ж.д. станции на закате"/>
-                <div class="cover__text">
-                    <h4 class="cover__text-title">
-                        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__text-title-link">До Байкала «на собаках»</a>
-                    </h4>
-                    <p class="cover__text-subtitele">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-                </div>
-                <div class="cover__overlay"></div>
+                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__text-title-link">
+                    <div class="cover__overlay">
+                        <img class="cover__background" src="./images/cover-trains.jpg" alt="Фото ж.д. станции на закате"/>
+                    </div>
+                    <div class="cover__text">
+                        <h2 class="cover__text-title">До Байкала «на собаках»</h2>
+                        <p class="cover__text-subtitele">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+                    </div>
+                </a>
             </section>
         </main>
 
         <footer class="footer">
-            <nav class="footer__links">
-                <a class="footer__link link-hower" href="https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3-Russia-desktop-mobile?node-id=48266%3A455">Карты</a>
-                <a class="footer__link link-hower" href="https://yandex.ru/pogoda">Погода</a>
-                <a class="footer__link link-hower" href="https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3-Russia-desktop-mobile?node-id=48266%3A455">Расписание</a>
-                <a class="footer__link link-hower" href="https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3-Russia-desktop-mobile?node-id=48266%3A455">Календарь</a>
-                <a class="footer__link link-hower" href="https://travel.yandex.ru">Путешествия</a>
+            <nav>
+                <ul class="footer__links">
+                    <li class="footer__list-item link-hower"><a class="footer__link" href="https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3-Russia-desktop-mobile?node-id=48266%3A455">Карты</a></li>
+                    <li class="footer__list-item link-hower"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+                    <li class="footer__list-item link-hower"><a class="footer__link" href="https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3-Russia-desktop-mobile?node-id=48266%3A455">Расписание</a></li>
+                    <li class="footer__list-item link-hower"><a class="footer__link" href="https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3-Russia-desktop-mobile?node-id=48266%3A455">Календарь</a></li>
+                    <li class="footer__list-item link-hower"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+                </ul>
             </nav>
             <p class="footer__copyright">&copy; 2020. Впишите своё имя</p>
         </footer>
 
     </div>
 </body>
+
+</html>

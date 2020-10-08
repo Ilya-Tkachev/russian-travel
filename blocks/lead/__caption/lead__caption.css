@@ -7,3 +7,15 @@
     padding-top: 8px;
     align-self: flex-start;
 }
+
+@media (max-width: 1023px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+}
