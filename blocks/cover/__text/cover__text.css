@@ -5,7 +5,3 @@
     display: grid;
     justify-items: center;
 }
-
-.cover__text:hover {
-    opacity: 30%;
-}
